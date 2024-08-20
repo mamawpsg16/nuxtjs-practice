@@ -1,6 +1,7 @@
 <template>
     <div>
         POSTS
+        <NuxtLink to="/posts/1">SHOW</NuxtLink>
     </div>
 </template>
 
