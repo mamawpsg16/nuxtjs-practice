@@ -1,10 +1,13 @@
 <script setup lang="ts">
-function enableCustomLayout () {
-  setPageLayout('custom')
-}
-// definePageMeta({
-//   layout: false,  //DISABLE LAYOUT
-// });
+  function enableCustomLayout () {
+    setPageLayout('custom')
+  }
+  // definePageMeta({
+  //   layout: false,  //DISABLE LAYOUT
+  // });
+  definePageMeta({
+    title: 'About Page Brodie',
+  })
 </script>
 
 <template>
